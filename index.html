@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeWork 关键事件时间线</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(90deg, #3498db, #8e44ad);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+        .timeline-container {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .event-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 5px solid #3498db;
+        }
+        .event-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .event-card:nth-child(2) { border-color: #e74c3c; }
+        .event-card:nth-child(3) { border-color: #2ecc71; }
+        .event-card:nth-child(4) { border-color: #f39c12; }
+        .event-card:nth-child(5) { border-color: #9b59b6; }
+        .event-card:nth-child(6) { border-color: #1abc9c; }
+        .event-card:nth-child(7) { border-color: #e67e22; }
+        .event-year {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .event-title {
+            font-size: 1.4rem;
+            color: #3498db;
+            margin-bottom: 15px;
+        }
+        .event-desc {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+        .visualization {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .visualization img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .event-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>WeWork 关键事件时间线</h1>
+            <div class="subtitle">从共享办公独角兽到破产保护的兴衰历程</div>
+        </header>
+
+        <div class="timeline-container">
+            <div class="event-card">
+                <div class="event-year">2010年</div>
+                <div class="event-title">创立</div>
+                <div class="event-desc">WeWork在纽约以共享办公空间起家，由亚当·诺伊曼(Adam Neumann)和米格尔·麦克凯尔维(Miguel McKelvey)共同创立。公司初期专注于为初创公司和自由职业者提供灵活的办公空间解决方案。</div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-year">2019年</div>
+                <div class="event-title">IPO夭折</div>
+                <div class="event-desc">WeWork计划以500亿美元估值上市，但在提交招股书后，其商业模式和财务状况受到质疑，导致IPO计划中止。估值大幅缩水至约100亿美元，创始人亚当·诺伊曼被迫辞去CEO职务。</div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-year">2021年</div>
+                <div class="event-title">SPAC上市</div>
+                <div class="event-desc">通过与BowX Acquisition Corp合并，WeWork以SPAC形式上市，市值约为80亿美元。这标志着公司在经历重大重组后重新进入公开市场，但估值远低于之前的高峰。</div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-year">2023年4月</div>
+                <div class="event-title">退市警告</div>
+                <div class="event-desc">由于股价连续30个交易日低于1美元，WeWork收到纽约证券交易所的退市警告。这反映了投资者对公司未来前景的担忧以及市场对其商业模式的持续质疑。</div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-year">2023年5月</div>
+                <div class="event-title">CEO离职</div>
+                <div class="event-desc">CEO桑迪普·马斯拉尼(Sandeep Mathrani)突然离职。他曾被寄予厚望能带领公司走出困境，但面对持续的财务压力和业务挑战，最终选择离开。</div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-year">2023年8月</div>
+                <div class="event-title">持续经营预警</div>
+                <div class="event-desc">公司发出持续经营预警，股价跌至0.13美元的历史低位。多位董事会成员辞职，公司开始为可能的破产重组做准备，显示出严重的财务危机。</div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-year">2023年11月</div>
+                <div class="event-title">破产保护</div>
+                <div class="event-desc">依据美国《破产法》第11章在新泽西州申请破产保护。此举旨在为公司提供重组债务和业务的机会，同时继续运营。WeWork中国的业务表示与全球业务已分离，不受此次破产申请影响。</div>
+            </div>
+        </div>
+
+        <div class="visualization">
+            <h2>事件时间线可视化</h2>
+            <img src="wework_timeline.png" alt="WeWork 关键事件时间线">
+        </div>
+
+        <footer>
+            <p>© 2023 WeWork 关键事件时间线 | 数据来源：公开资料整理</p>
+            <p>从470亿美元估值到破产保护，WeWork的兴衰反映了共享经济模式的挑战与风险</p>
+        </footer>
+    </div>
+</body>
+</html>
